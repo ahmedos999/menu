@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap');
+
+body{
+    background-color: #2d1a0e;
+    direction: rtl;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin: auto;
+}
+.location{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-family: "Mada", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.map{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #643a1e;
+    margin: 0 10px;
+}
